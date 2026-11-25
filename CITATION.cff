@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "StreamState"
+version: "0.1.0"
+doi: 10.5281/zenodo.24544217
+date-released: 2026-11-26
+license: Apache-2.0
+repository-code: "https://github.com/amzker-labs/streamstate"
+authors:
+  - family-names: Patel
+    given-names: Ammar
+preferred-citation:
+  type: article
+  title: "Eliminating the Gradient Buffer: Algebraically Exact In-Backward Momentum with Two-Thirds Less Memory for Dense and Routed Models"
+  authors:
+    - family-names: Patel
+      given-names: Ammar
+  year: 2026
+  doi: 10.5281/zenodo.24544000
+  url: "https://doi.org/10.5281/zenodo.24544000"

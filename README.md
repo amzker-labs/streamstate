@@ -125,6 +125,33 @@ The kernels, the MoE layer and the optimizer's compiled update functions are cop
 produced the paper's numbers. The optimizer class keeps only the code paths the paper measured (bit-identical to the
 original; see Verify).
 
+## Citation
+
+Paper: [doi:10.5281/zenodo.24544000](https://doi.org/10.5281/zenodo.24544000). Code (v0.1.0):
+[doi:10.5281/zenodo.24544217](https://doi.org/10.5281/zenodo.24544217).
+
+```bibtex
+@misc{patel2026streammuon,
+  title     = {Eliminating the Gradient Buffer: Algebraically Exact In-Backward Momentum with Two-Thirds Less Memory
+               for Dense and Routed Models},
+  author    = {Patel, Ammar},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24544000},
+  url       = {https://doi.org/10.5281/zenodo.24544000}
+}
+
+@software{patel2026streamstate,
+  title     = {StreamState: optimizer state streamed through the backward pass},
+  author    = {Patel, Ammar},
+  year      = {2026},
+  version   = {0.1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24544217},
+  url       = {https://github.com/amzker-labs/streamstate}
+}
+```
+
 ## License
 
 Code: Apache-2.0 (see [`LICENSE`](LICENSE)). Paper (`paper/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
